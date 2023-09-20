@@ -1,0 +1,211 @@
+body {
+  background-color: black;
+  margin: 0px;
+  margin-top: -20px;
+}
+.layout {
+  background-color: #FAFBFD;
+  width: 237px;
+  height: 1234px;
+  border-radius: 10px;
+  
+  
+}
+
+.devColor {
+  color: #F7542E;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19.5px;
+  
+}
+
+.challengeColor {
+  color: #090F31;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19.5px;
+} 
+
+.devChallengeStyle {
+  padding-top: 2.3rem;
+  margin-left: 48px;
+  margin-bottom: 7rem;
+  
+  
+}
+
+.NavInputsStyles {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20.27px;
+  list-style-type: none;
+  margin-left: 4px;
+  padding-bottom: 100px;
+  color: #9E9E9E;
+}
+
+.NavInputsStyles li {
+  margin-bottom: 2rem;
+
+}
+
+.mainStyle {
+  
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: white; 
+  display: flex;
+  
+}
+
+.inputBold {
+  font-weight: 1000;
+  color: #090F31;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4F4F4F;
+  
+}
+
+.section1 {
+  
+  margin-left: 5rem;
+  margin-top: 3.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex; 
+}
+
+.container1 {
+  margin-right: 8rem;
+  width: 10rem;
+  margin-left: 8rem;
+}
+
+div h4 {
+  font-family: 'Ubuntu Mono', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+div button {
+  width: 81px;
+  height: 36px;
+  border-radius: 6PX;
+  border-width: 0;
+  
+  
+}
+
+
+.defaultButton-medium {
+  background-color: #E0E0E0;
+  cursor: pointer;
+  width: 81px;
+  height: 36px;
+  box-shadow: 5px 5px 10px #000;
+}
+
+.defaultButton-small {
+  background-color: #E0E0E0;
+  cursor: pointer;
+  width: 73px;
+  height: 32px;
+  box-shadow: 5px 5px 10px #000;
+}
+
+.defaultButton-large {
+  background-color: #E0E0E0;
+  cursor: pointer;
+  width: 93px;
+  height: 42px;
+  box-shadow: 5px 5px 10px #000;
+}
+
+.hoverFocus:hover {
+  background-color: #AEAEAE;
+  cursor: pointer;
+}
+
+.hoverFocus:focus {
+  border: 2px solid #007bff;
+}
+
+.disabledButton {
+  background-color: #E0E0E0;
+  cursor: not-allowed;
+}
+
+.disabledShadow {
+  box-shadow: none;
+}
+
+.defaultButton-defaultColor {
+  background-color: #E0E0E0;
+}
+
+.defaultButton-primaryColor {
+  background-color: #0a3b9d;
+  color: white;
+}
+
+.defaultButton-secondaryColor {
+  background-color: #fd76ff;
+  color: white;
+}
+
+.defaultButton-dangerColor {
+  background-color: #cd4c54;
+  color: white;
+}
+
+.defaultButton-successColor {
+  background-color: #0fffc1;
+  
+}
+
+.defaultButton-warningColor {
+  background-color: #fffb60;
+  
+}
+.defaultButton-outlineType {
+  background-color: white;
+  box-shadow: none;
+  border: solid 1px ;
+  color: blue;
+}
+.defaultButton-textType {
+  background-color: white;
+  box-shadow: none;
+  
+}
+
+div section {
+  border: solid black 1px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+section h4 {
+  margin-left: 30px;
+} 
+
+section {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+  background-color: #FAFBFD;
+}
