@@ -6,6 +6,7 @@ import {
   ChooseSize,
   ChangeColor,
   UseButtonLogic,
+  Icons,
 } from "./Imports";
 
 export const App = () => {
@@ -23,6 +24,12 @@ export const App = () => {
     setIsChecked,
     setIsDisabled,
     setisDisabledShadow,
+    icons,
+    handleIconChange,
+    Icon,
+    iconsR,
+    handleIconChangeR,
+    IconR,
   } = UseButtonLogic();
   return (
     <main className="mainStyle">
@@ -36,6 +43,8 @@ export const App = () => {
           isChecked={isChecked}
           isDisabled={isDisabled}
           isdisabledShadow={isdisabledShadow}
+          icons={icons}
+          iconsR={iconsR}
         />
         <div>
           <AditionalPreferences
@@ -57,6 +66,16 @@ export const App = () => {
             {type !== "outlineType" && type !== "textType" && (
               <ChangeColor color={color} changeColor={changeColor} />
             )}
+          </div>
+          <div>
+            <Icons
+              icons={icons}
+              handleIconChange={handleIconChange}
+              Icon={Icon}
+              iconsR={iconsR}
+              handleIconChangeR={handleIconChangeR}
+              IconR={IconR}
+            />
           </div>
         </div>
       </section1>
