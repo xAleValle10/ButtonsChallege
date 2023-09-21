@@ -59,6 +59,7 @@ body {
   background-color: white; 
   display: flex;
   
+  
 }
 
 .inputBold {
@@ -82,11 +83,12 @@ h1 {
   display: flex; 
   margin-right: 0;
   margin-bottom: 0;
+  
 }
 
 .container1 {
   margin-right: 12rem;
-  width: 10rem;
+  width: 12rem;
   margin-left: 8rem;
   
 }
@@ -178,6 +180,7 @@ div button {
   background-color: #fffb60;
   
 }
+
 .defaultButton-outlineType {
   background-color: white;
   box-shadow: none;
@@ -196,6 +199,7 @@ div section {
   margin-bottom: 10px;
   font-family: 'Noto Sans JP', sans-serif;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 22rem;
 }
 
 section h4 {
