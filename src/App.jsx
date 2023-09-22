@@ -32,10 +32,12 @@ export const App = () => {
     IconR,
   } = UseButtonLogic();
   return (
-    <main className="mainStyle">
-      <NavBar />
+    <div className="mainstyle">
+      <div className="navbar">
+        <NavBar />
+      </div>
 
-      <section1 className="section1">
+      <div className="main">
         <CustomButton
           size={size}
           color={color}
@@ -46,6 +48,8 @@ export const App = () => {
           icons={icons}
           iconsR={iconsR}
         />
+      </div>
+      <div className="sidebar">
         <div>
           <AditionalPreferences
             isChecked={isChecked}
@@ -78,7 +82,7 @@ export const App = () => {
             />
           </div>
         </div>
-      </section1>
-    </main>
+      </div>
+    </div>
   );
 };

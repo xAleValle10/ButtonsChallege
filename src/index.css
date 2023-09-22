@@ -1,16 +1,75 @@
-body {
-  background-color: black;
-  margin-top: 20px;
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {  
+  margin: 0;
+  padding: 0;
+  height: 100%;
+    
+}
+
+.mainstyle {
+  
+  border-radius: 10px;
+  background-color: white; 
+  display: grid;
+  grid-template-areas: 
+  "navbar main sidebar";
+  grid-template-columns: 300px 350px 400px;
   
 }
+
+@media (max-width: 850px) {
+  .mainstyle {
+    grid-template-areas: 
+  "navbar main"
+  "navbar sidebar";
+  ;
+    
+}
+  }
+
+
+  @media (max-width: 600px) {
+    .mainstyle {
+      grid-template-areas: 
+    "navbar" 
+    "main"
+    "sidebar";
+    ;
+      
+  }
+    }
+
+.navbar {
+  margin-top: -20px;
+  grid-area: navbar;
+  margin-right: 5rem;
+}
+
+.main {
+  grid-area: main;
+  margin-top: 50px;
+    
+}
+
+.sidebar {
+  grid-area: sidebar;
+  margin-top: 50px;
+  
+}
+
+
 .layout {
   background-color: #FAFBFD;
-  width: 237px;
-  height: 550px;
-  border-radius: 10px;
-  
-  
+  border-radius: 10px; 
 }
+
+
+
 
 .devColor {
   color: #F7542E;
@@ -53,15 +112,6 @@ body {
 
 }
 
-.mainStyle {
-  
-  border-radius: 10px;
-  background-color: white; 
-  display: flex;
-  
-  
-}
-
 .inputBold {
   font-weight: 1000;
   color: #090F31;
@@ -76,23 +126,6 @@ h1 {
   
 }
 
-.section1 {
-  
-  margin-left: -4rem;
-  margin-top: 3.5rem;
-  display: flex; 
-  margin-right: 0;
-  margin-bottom: 0;
-  
-}
-
-.container1 {
-  margin-right: 12rem;
-  width: 12rem;
-  margin-left: 8rem;
-  
-}
-
 div h4 {
   font-family: 'Ubuntu Mono', sans-serif;
   font-weight: 400;
@@ -104,7 +137,6 @@ div h4 {
 div button {
   border-radius: 6px;
   border-width: 0;
-  display: flex;
   justify-content: center;
   align-items: center;  
 }
@@ -199,7 +231,7 @@ div section {
   margin-bottom: 10px;
   font-family: 'Noto Sans JP', sans-serif;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-  width: 22rem;
+  
 }
 
 section h4 {
